@@ -1,0 +1,11 @@
+get x264
+./configure --prefix=/e/work/Libs/ffmpeg-lib --enable-shared
+make 
+make install
+
+get xvid
+./configure --prefix=/e/work/Libs/ffmpeg-lib --enable-shared
+make 
+make install
+
+./compile.sh
