@@ -1,0 +1,14 @@
+prefix=../ffmpeg-lib
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg video filtering library
+Version: 1.18.0
+Requires: libavutil = 50.13.0
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavfilter -lpsapi -lz -lm -lws2_32 -lavicap32
+Libs.private: 
+Cflags: -I${includedir}
