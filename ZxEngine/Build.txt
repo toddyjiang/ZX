@@ -1,0 +1,48 @@
+*************************************************************************************************************
+*                                   FxEngine Framework build                                                *
+*************************************************************************************************************
+FxEngine Framework Copyright (C) 2005-2009 Sylvain Machel, SMProcess.
+
+BEFORE STARTING:
+----------------
+This has to be installed before starting: 
+	- gcc 4.3.0
+	- libdl.so.2 
+	- libpthread.so.0
+	- libstdc++.so.6
+	- libm.so.6
+	- libgcc_s.so.1
+	- libc.so.6
+	
+BOOST LIBRARIES:
+----------------
+The FxEngine Framework needs boost thread library 1.34.1 to compile and to run.
+Refer to www.boost.org to download and to install it. 
+Once boost library installed, you need to set the right boost installation path in Makefiles.
+	- Src/Build/x86-linux/Makefile ....Replace INC_BOOST and LIB_BOOST by respectively the 
+			boost includes files path and boost libraries paths.
+	- Tools/FxEngineEditor/build/x86-linux ....Replace INC_BOOST and LIB_BOOST by respectivly the 
+			boost includes files path and boost libraries paths.
+			
+WXWIDGETS LIBRARIES:
+--------------------
+The FxEngine Editor needs the wxWidgets libraries 2.8.2 or higher to compile. To verify the wxWidget installation and version,
+type "wx-config --version". If needed, to upgrade or to instal the wxWidgets libraries, refer to http://www.wxwidgets.org.
+
+ASLA LIBRARIES:
+---------------
+Some Fx samples (e.g. FxAlsaRnd) need the Alsa libraries to compile and to run. Refer to http://www.alsa-project.org to download and to install the Alsa libraries.
+
+BUILD NOW:
+----------
+To compile: 
+	- The FxEngine Framework, Samples, and Tools: launch /Build/x86-linux/Build.ksh batch file.
+	- The FxEngine Editor only: execute make in Tools/FxEngineEditor/build/x86-linux directory
+	- The TraceTool only: execute make in Tools/TraceTool/build/x86-linux/x86-linux directory
+	- One of framework samples: execute make in Liv/Samples/XXXXX/Build/x86-linux directory where
+				 XXXXX is the sample name.  
+				 
+INSTALL NOW:
+------------
+See the Install.txt.
+

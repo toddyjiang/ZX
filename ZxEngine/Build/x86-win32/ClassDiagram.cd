@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FEF::IFxVectorFormat" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxVectorFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxVideoImgFormat" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxVideoImgFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxState" Collapsed="true">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxRefClock" Collapsed="true">
+    <Position X="2" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxRefClock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxPinManager" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxPinManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxPinCallback" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAEAAAAAAAAABAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxPinCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxPin" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgCAEOACAAAiSAAgAgAAAAAAABAAAAAAgIIIA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxPin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxPcmFormat" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxPcmFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxParam" Collapsed="true">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAQ=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxParam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxMedia" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAIAACAAVAIBoAAAwAAgAACACAAABAAQAg=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxMedia.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxMatrixFormat" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxMatrixFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFxBase" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIEEAAQAAAAAAAAAEAAAAAAAQACAAAAAAAoAAAAE=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::IFx" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAwAAAAAABAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CXMLRoot" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAQAACABAAAkAAAAAAAAAAIgAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxXML\XMLRoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CXMLFxManager" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAIAIAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxXML\XMLFx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CXMLFx" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAUAAEAAAAAAAAAAABBAAQBgAAAAAAAAAACAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxXML\XMLFx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CXMLConnectionManager" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAgA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxXML\XMLConnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CXMLConnection" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAQAWEAFAIhAAAgAAAAAEQAAAACAAAAAAAAIAAEA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxXML\XMLConnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CState" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="FEF::CFxAPCCallBack" FixedFromPoint="true">
+      <Path>
+        <Point X="8.438" Y="4.017" />
+        <Point X="8.438" Y="4.375" />
+        <Point X="11.5" Y="4.375" />
+        <Point X="11.5" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAMAACAAEAQIAgEAUAAEAAAAAAAACACAAAgAgEBA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxState\State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CPinState" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAQAAgAABAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxPin\FxPin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CNotifyObjects" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAABAAAACAQAkAAAAAAABAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxUtils\NotifyObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CNotifyLogTrace" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAACEAAAAAAABAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxUtils\NotifyObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CNotifyLogDump" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAABAAAAAAAAAAAAAAAAAEAAAAAAABAgACA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxUtils\NotifyObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CNotifyFunction" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAEAAAAAAAAIAAAAAABEAAAAAAABAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxUtils\NotifyObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxVideoImgFormat" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAIAAAAAAAQAAAAAAAACAAAAAAAAAAAAAgAAgAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxVideoImgFormat\FxVideoImgFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxVectorFormat" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIkAAAAAAAAAQBAAAAAAABAABAAAAAAAgAEAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxVectorFormat\FxVectorFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxStateCallback" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Include\IFxState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxState" Collapsed="true">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEIAAAAAAwAAAAAUAIABAAAAAAAAAFAECAAgIAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxState\FxState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxRefClockObserver" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAiAgAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxRefClock\FxRefClock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxRefClock" Collapsed="true">
+    <Position X="2" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIABAgAAQAAAAAAAEABAAAAAAAAAEAAQiAgAAI=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxRefClock\FxRefClock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxPinObserver" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxPin\FxPin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxPinManager" Collapsed="true">
+    <Position X="8" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="FEF::IFxPinManager" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="7.017" />
+        <Point X="8.75" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AABAgAoAABgAAQIAAAAABAABAQIAAECAAEAcAAIAAEA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxPinManager\FxPinManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxPin" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="FEF::CFxAPCCallBack" FixedFromPoint="true">
+      <Path>
+        <Point X="8.062" Y="4.017" />
+        <Point X="8.062" Y="4.375" />
+        <Point X="6.25" Y="4.375" />
+        <Point X="6.25" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AABIACKlGEEOQSMIsjTICsA5CUAEJgABokAYAAooZoA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxPin\FxPin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxPcmFormat" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABIAAAAAQAAAAAAAAAAACCAAAAEAAAAAAAAAAI=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxPcmFormat\FxPcmFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxParam" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="FEF::IFxParam" FixedFromPoint="true">
+      <Path>
+        <Point X="5.75" Y="7.017" />
+        <Point X="5.75" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>hQAAACIAAAAAAQAQAAAAAAQBAAAAAAAAhEACIAAgACQ=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxParam\FxParam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxMediaPool" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAACAQAQgBBAAgAAAAAAAAgAAggEEAAQAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxMediaPool\FxMediaPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxMedia" Collapsed="true">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAQAAAAoAIQQmAIVAIBoIAAwAAgAECAiAAABAAWgk=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxMedia\FxMedia.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxMatrixFormat" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABAAAAAQBAAAAAAABAABIIAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxMatrixFormat\FxMatrixFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxLog" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAIAAAAAEQBIAAQAAGIAAACEEAAEAQAAIAIAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxTrace\FxTrace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxEngineCore" Collapsed="true">
+    <Position X="12" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAIkOACSgUARAKAHAWFDOCgAA4CCAEBkmgAqAqADE=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\Core\FxEngineCore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxAPCCallBack" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxUtils\FxAPC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEF::CFxAPC" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAIAIAAAEIRAAASAAAIAAASEAAAAAAAAIAIAAAA=</HashCode>
+      <FileName>e:\work\ZxEngine\Src\Src\FxUtils\FxAPC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

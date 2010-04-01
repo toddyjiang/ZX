@@ -1,0 +1,6 @@
+LIBRARY	"AudioRender"
+
+DESCRIPTION 'AudioRender'
+
+EXPORTS
+            FEF_GetFxBase       PRIVATE

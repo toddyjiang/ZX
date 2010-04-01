@@ -1,0 +1,6 @@
+LIBRARY	"ZxWavFileRnd"
+
+DESCRIPTION 'ZxWavFileRnd'
+
+EXPORTS
+            FEF_GetFxBase       PRIVATE

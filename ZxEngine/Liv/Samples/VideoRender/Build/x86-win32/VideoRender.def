@@ -1,0 +1,6 @@
+LIBRARY	"VideoRender"
+
+DESCRIPTION 'VideoRender'
+
+EXPORTS
+            FEF_GetFxBase       PRIVATE

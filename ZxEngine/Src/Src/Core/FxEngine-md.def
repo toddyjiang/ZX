@@ -1,0 +1,7 @@
+LIBRARY	FxEngine-md
+
+DESCRIPTION 'FxEngine-md'
+
+EXPORTS
+            FEF_GetFxEngineVersion       PRIVATE
+     

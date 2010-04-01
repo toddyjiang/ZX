@@ -1,0 +1,6 @@
+LIBRARY	"ZxHelloWorld"
+
+DESCRIPTION 'ZxHelloWorld'
+
+EXPORTS
+            FEF_GetFxBase       PRIVATE

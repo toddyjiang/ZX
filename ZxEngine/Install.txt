@@ -1,0 +1,49 @@
+*************************************************************************************************************
+*                                   FxEngine Framework installation                                        *
+*************************************************************************************************************
+FxEngine Framework Copyright (C) 2005-2009 Sylvain Machel, SMProcess.
+
+BEFORE STARTING:
+----------------
+This has to be installed before starting: 
+gcc 4.3.0
+libdl.so.2 
+libpthread.so.0
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+    
+INSTALL NOW:
+------------
+Let us say you would like to install FxEngine Framework in your own home directory called /home/Me/SMProcess/
+
+-1- Create directory:
+    $ mkdir /home/Me/SMProcess
+
+-2- Get the framework:
+    Download the FxEngine.X.Y.Src.tar.gz archive from www.SMProcess.com and copy it to /home/Me/SMProcess
+        
+-3- Uncompress the archive:
+    $ cd /home/Me/SMProcess
+    $ tar -zxvf FxEngine.X.Y.Src.tar.gz
+
+-4- Build the Framework and tools:
+    Go in /home/Me/SMProcess/FxEngine
+    See Build.txt
+        
+-5- Setup FxEngine library
+    $ cd /home/Me/SMProcess/FxEngine/Liv/Lib
+    $ ln -sf libFxEngine.so.X.Y libFxEngine.so.X
+    $ ln -sf libFxEngine.so.X libFxEngine.so 
+    
+-6- Configure FxEngine path
+    Edit /etc/ld.so.conf file
+    Add "/home/Me/SMProcess/FxEngine/Liv/Lib" line at the end of file (without quotes)
+    $ export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/Me/SMProcess/FxEngine/Liv/Lib"
+    $ ldconfig or /sbin/ldconfig (In some cases, It is recommended to reboot after that)
+        
+-7- Get the GTK+ 2.x.y libraries to use the FxEngine Editor (/home/Me/SMProcess/FxEngine/Liv/Bin/FxEngineEditor)
+    Go to http://www.gtk.org/download.html
+                
+    

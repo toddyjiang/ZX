@@ -1,0 +1,331 @@
+FxEngine Framework Revision History
+FxEngine Framework Copyright (C) 2005-2009 Sylvain Machel, SMProcess.
+=====================================================================
+
+FxEngine Version 4.4 (August 20, 2009)
+-------------------------------------------------------------------------------
+- All
+	+ Open source version
+		
+FxEngine Version 4.3 (June 03, 2009)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	- Linux
+		+ Added Audio samples: FxAlsaRnd, FxMToS, FxSToM, FxSToMSplitter and FxMToSMerger.
+		+ Updated other samples.
+		
+FxEngine Version 4.3 (April 10, 2009)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	- All
+		+ Fixed IFxMedia::Release, Re-initialize all Media parameters.
+	- Linux
+		+ Updated samples.
+- FxEngine Editor:
+	- All
+		+ Fixed TxRx Bytes drawing (64 bits values).
+		
+FxEngine Version 4.2 (March 12, 2009)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	- Win32
+		+ Updated to visual C++ 2008 SP1
+
+FxEngine Version 4.2 (January 20, 2009)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	- All
+	    	+ Added IFxPin::InitStream method allowing to send FxMedia
+	      	  to the downstream.
+	    	+ Added IFxPin::GetTxRxBytes method allowing to retrieve the amount
+		  of byte received or transmitted since the Fx pin is connected.
+		+ Added IFxState::FxGetState method.
+		+ Added IFxState::FxRePublishState method.
+		+ Updated GetMediaType method. Replace address on pointer parameter by
+		  pointer on variable.
+	- Linux
+		+ Added FxLADSPA sample.
+		+ Updated samples.
+	- Win32
+		+ Updated samples.
+- FxEngine Editor:
+	- All
+	    	+ Added Fx state color box (Green, Orange and Red) allowing 
+	          to have a rapid Fx states overview.
+		+ Added amount of bytes per pin (Options menu).
+	    	+ Fixed selection when the "Design lock" is set.
+
+FxEngine Version 4.1 (December 14, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Editor:
+	- All
+		+ Fixed layer closing.
+	
+FxEngine Version 4.1 (Octber 10, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	- All
+		+ Fixed BGR Video sub type. 
+		+ Added IFxMedia::Copy enables you to copy FxMedia data
+		  and properties.
+	- Win32
+		+ Updated FxMsgSrc sample.
+		
+- FxEngine Editor:
+	- All
+		+ Added automatic connectors drawing.
+		+ Increased connections performances.
+		+ Fixed .fxe loading.
+		+ Added FEF_StopFx calling when a Fx is deleted.
+		+ Changed FxEngine icon.
+		
+FxEngine Version 4.0 (September 10, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	- All
+		+ Added cplusplus namespace FEF.
+		+ Updated Bool in FxTypes.h.
+		+ Updated samples.
+	- Win32
+		+ Added new Fx sample code: FxMsgSrc
+
+FxEngine Version 3.8 (August 19, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	- All 
+		+ Fixed FEF_AddFx method when the Fx is invalid.
+		+ IFxPin::Flush() can be called in any state of Fx.
+		+ IFxPin and IFxPinManager methods can be called in IFxBase::Release method.
+		+ Added "on the fly" connection Pin: Pin which is just connected can receive
+		  FxMedia accoring to its Fx state (i.e. START, STOP, PAUSE).
+		+ Updated samples.
+	- Linux
+		+ Added new Fx samples: FxSndFileSrc, FxPcmGain and FxWavFileRnd.
+
+FxEngine Version 3.7 (July 18, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	- Win32
+		+ Added Microsoft Visual 2008 version (Vc9).
+	
+FxEngine Version 3.6 (June 17, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	+ Fixed IFxPin::GetDeliveryMedia method (calling with INFINITE_TIME).
+	
+FxEngine Version 3.5 (May 2, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	+ Fixed messages queue. The system delivers pending and nonqueued messages (Window only).
+	+ Fixed Fx Observers states. 
+
+- FxEngine Editor:
+	- All
+		+ Fixed Fx state callback (there could be a blocking state)
+		
+FxEngine Version 3.4 (April 4, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	+ Added BGR Video sub type
+	+ Added COMPLEX_TYPE component in IFxPcmFormat::GetBitsPerSample (32bit) 
+
+- FxEngine Editor:
+	- All
+		+ Fixed .fxe files loading
+
+FxEngine Version 3.3 (March 10, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	+ Fixed IFxPin::WaitForIFxMedia method
+	+ Added PIN_NOT_CONNECTED sending when Fx is released
+	+ Fixed FEF_RemoveFx
+	+ Added Release all Media buffer when pin is disconnected
+	
+- FxEngine Editor:
+	- All
+		+ Fixed Fx state in Status Bar
+		+ added trying to connect Fx Pin when it's created
+
+- Samples:
+	+ Added release Media data in cases when an error occurs
+
+FxEngine Version 3.2 (February 25, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	+ Added std::string parameter to IFxParam interface
+	+ Fixed memory leak in RemoveFxParam method
+	+ Added FX_ERROR_INVALID_PARAM Fx state 
+
+- FxEngine Editor:
+	- All
+		+ Allowed to select Fx and Line together
+		+ Added loading Fx progress bar
+		+ Improved context menu on Fx
+		+ Moved application window to top when starting
+	- Win32
+		+ Updated wxWidgets library to 2.8.7
+	- Linux
+		+ Use static library wxWidgets 2.8.7 instead of dynamic
+		+ Fixed events key
+		+ Fixed command line arguments
+
+- Samples:
+	+ Updated FxBmpSrc to use new std::string parameter type
+	+ Updated FxHelloWorldSrc to use new std::string parameter type
+
+FxEngine Version 3.1 (January 05, 2008)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	+ Fixed FEF_RemoveFx method (disable all pins callbacks before remove Fx) 
+	+ Fixed Pin callback synchronization (case where more several pins
+	  use the same IFxPinCallback interface)
+
+- FxEngine Editor:
+	- All
+		+ Fixed "in/Out Pins" tabs text format
+		+ Changed Fx name and line colors
+		+ Fixed pin drawing order
+		+ Fixed Menu events re-entrance
+	- Linux
+		+ Fixed drawing events (prevent the drawing view to keep event)
+		+ Fixed load of fxe file
+
+FxEngine Version 3 (October 31, 2007)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	+ Replace all Char* by stl string 
+	+ Updated FEF_GetFxInfo
+	+ Added FX_DESCRIPTOR structure
+	+ Intregration of Linux Release Candidate
+
+- FxEngine Editor:
+	+ Updated application
+	+ Fixed Fx drawing
+	+ Added Linux Release Candidate
+
+FxEngine Version 2.8.0.1 (August 19, 2007)
+-------------------------------------------------------------------------------
+- FxEngine Framework:
+	+ Fixed asynchronous pin callback
+	+ Updated script setup (Vista compliant)
+	+ Updated Boost library 1.34.1
+
+- FxEngine Editor:
+	+ Updated wxWidget library 2.8.4
+	+ Updated Editor Icon
+
+FxEngine Version 2.8.0.0 (July 28, 2007)
+-------------------------------------------------------------------------------
+- FxEngine Editor:
+	+ Added pin removing management
+
+- FxEngine Framework:
+	+ Added IFxParam::RemoveFxParam method,
+    	+ Added IFxPinManager::Remove method,
+	+ Updated FX_PARAM structure,
+	+ Fixed FEF_DisconnectFxPin function
+
+- Update samples (Fx parameters declarations).
+
+FxEngine Version 2.7.0.3 (July 15, 2007)
+-------------------------------------------------------------------------------
+- FxEngine Editor:
+	+ Shows the Fx picture,
+	+ Fx parameters saving/loading,
+	+ Added Editor design lock menu,
+	+ Added Fx rename menu,
+	+ Added Fx pin name popup (mouse over)
+
+- FxEngine Framework:
+	+ Added IFxBase::GetFxFrame method,
+	+ Added IFxBase::UpdateFxParam method,
+	+ Added Fx Network scope,
+	+ Fixed Fx parameters of type Complex,
+	+ Fixed Framework close,
+	+ Fixed Fx state call
+
+- Update samples.
+
+FxEngine Version 2.7.0.2 (May 01, 2007)
+-------------------------------------------------------------------------------
+- Update FxEngine Editor including:
+	+ Fx tree view with fx scope and type,	
+	+ Fx Drag and Drop,
+	+ File Drag and Drop,
+	+ Icon task bar,
+	+ Graphicals improvements (Fx selection and moving), 
+	+ Printing support.
+- Fixed FEF_GetFxEngineVersion function.
+- Fixed IFx::GetIFxVersion method.
+- Fixed FEF_AddFx function.
+- Removed some memory leak.
+- Updated FEF_GetFxInfo function (Add Fx scope).
+- Updated FEF_GetConstToString function.
+- Increase Dialog messages processing in Fx samples.
+
+FxEngine Version 2.7.0.1 (January 27, 2007)
+-------------------------------------------------------------------------------
+- Fix VC80 Run Time libraries.
+- Updated FEF_SaveFxEngine function.
+- Updated Dialog messages processing in samples:
+	- FxWaveSrc (1.0.0.4)
+	- FxRGBRnd (1.0.0.1)
+	- FxRGBrlSplitter (1.0.0.1)
+	- FxPcmEcho (1.0.0.3)
+	- FxDsRnd (1.1.0.3)
+	- FxBmpSrc (1.0.0.1)
+
+FxEngine Version 2.7.0.0 (January 02, 2007)
+-------------------------------------------------------------------------------
+- Fixed pin's state connexion.
+- Added Fx samples for image processing (Bmp reader, RGB right/Left splitter
+  and RGB renderer).
+
+FxEngine Version 2.6.0.1 (December 17, 2006)
+-------------------------------------------------------------------------------
+- Fixed FxMedia memory allocation.
+- Fixed Hangup of IFxPin::Flush method.
+
+FxEngine Version 2.6.0.0 (December 02, 2006)
+-------------------------------------------------------------------------------
+- The FEF_SaveFxEngine API method saves configuration in a "pseudo" XML form. 
+- Renamed the IFxPin::GetConnexionMediaType to IFxPin::GetConnectionMediaType.
+- Added IFxMedia::SetSize method.
+- Added IFxMedia::SetFxMediaName method.
+- Added IFxMedia::GetFxMediaName method.
+
+FxEngine Version 2.5.0.0 (November 18, 2006)
+-------------------------------------------------------------------------------
+- Added FEF_ConnectPinEx function.
+
+FxEngine Version 2.4.0.0 (August 28, 2006)
+-------------------------------------------------------------------------------
+- Added boost libraries.
+- Updated FEF_CreateFxEngine API method.
+- Added IFxMedia::Release method.
+- Added IFxPinCallback::FxMedia method.
+- IFx Interface 3.0.0.0:
+	Update IFxPin::GetDeliveryMedia method (add time-out)
+-Updated samples.
+
+FxEngine Version 2.3.0.1 (June 26, 2006)
+-------------------------------------------------------------------------------
+- DLL useful optimization for multithreaded.
+
+FxEngine Version 2.3.0.0 (June 4, 2006)
+-------------------------------------------------------------------------------
+- Fixed FEF_GetFxState function.
+
+FxEngine Version 2.2.0.0 (June 1, 2006)
+-------------------------------------------------------------------------------
+- Fixed IFxPinManager::Create method called outside the IFxBase::InitFx.
+
+FxEngine Version 2.1.0.0 (May 20, 2006)
+-------------------------------------------------------------------------------
+- All FxEngine API methods begin by "FEF_".
+- IFx Interface 2.0.0.0:
+	Added IFxPin::GetMediaTypeCount method
+	Added IFxPin::GetMediaType method
+- IFxBase Interface:
+	Added IFxBase::RunFx method
+- Update samples.

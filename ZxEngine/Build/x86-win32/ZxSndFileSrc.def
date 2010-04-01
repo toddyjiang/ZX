@@ -1,0 +1,6 @@
+LIBRARY	"ZxSndFileSrc"
+
+DESCRIPTION 'ZxSndFileSrc'
+
+EXPORTS
+            FEF_GetFxBase       PRIVATE
